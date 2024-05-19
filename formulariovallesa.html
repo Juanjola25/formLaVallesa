@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de 10 Preguntas</title>
+</head>
+<body>
+    <h1>Formulario de 10 Preguntas</h1>
+    <form action="#" method="post">
+        <label for="nombre">1. Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        
+        <label for="email">2. Correo Electrónico:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+        
+        <label for="edad">3. Edad:</label><br>
+        <input type="number" id="edad" name="edad"><br><br>
+        
+        <label for="genero">4. Género:</label><br>
+        <select id="genero" name="genero">
+            <option value="masculino">Masculino</option>
+            <option value="femenino">Femenino</option>
+            <option value="otro">Otro</option>
+        </select><br><br>
+        
+        <label for="ciudad">5. Ciudad:</label><br>
+        <input type="text" id="ciudad" name="ciudad"><br><br>
+        
+        <label>6. ¿Te gusta la tecnología?</label><br>
+        <input type="radio" id="tecnologia_si" name="tecnologia" value="si">
+        <label for="tecnologia_si">Sí</label><br>
+        <input type="radio" id="tecnologia_no" name="tecnologia" value="no">
+        <label for="tecnologia_no">No</label><br><br>
+        
+        <label for="hobbies">7. Hobbies:</label><br>
+        <input type="checkbox" id="hobby_lectura" name="hobbies" value="lectura">
+        <label for="hobby_lectura">Lectura</label><br>
+        <input type="checkbox" id="hobby_deporte" name="hobbies" value="deporte">
+        <label for="hobby_deporte">Deporte</label><br>
+        <input type="checkbox" id="hobby_musica" name="hobbies" value="musica">
+        <label for="hobby_musica">Música</label><br><br>
+        
+        <label for="comentarios">8. Comentarios:</label><br>
+        <textarea id="comentarios" name="comentarios"></textarea><br><br>
+        
+        <label for="satisfaccion">9. Nivel de Satisfacción:</label><br>
+        <input type="range" id="satisfaccion" name="satisfaccion" min="1" max="10"><br><br>
+        
+        <label for="fecha">10. Fecha:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
